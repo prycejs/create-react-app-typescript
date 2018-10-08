@@ -1,3 +1,28 @@
+# `react-scripts-ts-sass` SASS support for react-scripts-1.x
+
+customized by prycejs
+heavily based on: https://github.com/petejkim/create-react-app-typescript-sass
+
+Dependencies: (add these to your main project)
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.0.1",
+
+Rationale:
+react-scripts-ts is a fork of react-scripts 1.x which is part of create-react-app 1.x
+react-scripts-ts adds typescript support to react-scripts
+react-scripts 1.x does not have SASS support currently, but will handle SASS natively in create-react-app 2.x
+create-react-app 2.x has been released with react-scripts update that has native SASS support
+react-scripts-ts has not yet integrated the changes from create-react-app 2.x (but will soon).
+
+So for now, the best solution for SASS support for react-scripts-ts is to fork it and add it in,
+as an absolute minimal set of changes, which is this repository.
+
+In future (Late October / Early November 2018) we expect react-scripts-ts to have incorporated
+the upstream SASS support, and the dependency on this package can be removed to depend instead
+on the mainline react-scripts-ts package at:
+https://github.com/wmonk/create-react-app-typescript
+---
+
 # `react-scripts-ts` [![npm version](https://badge.fury.io/js/react-scripts-ts.svg)](https://badge.fury.io/js/react-scripts-ts) [![Build Status](https://travis-ci.org/wmonk/create-react-app-typescript.svg?branch=master)](https://travis-ci.org/wmonk/create-react-app-typescript)
 
 Create React apps (with Typescript) with no build configuration.

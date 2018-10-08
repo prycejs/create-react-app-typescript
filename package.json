@@ -1,14 +1,11 @@
 {
-  "name": "react-scripts-ts",
-  "version": "3.1.0",
-  "description": "Configuration and scripts for Create React App.",
-  "repository": "wmonk/create-react-app",
+  "name": "@prycejs/react-scripts-ts-sass",
+  "version": "3.1.1",
+  "description": "Configuration and react-scripts for TypeScript and SASS, based off wmonk/create-react-app-typescript and changes made by petejkim here https://github.com/petejkim/create-react-app-typescript-sass",
+  "repository": "prycejs/create-react-app-typescript",
   "license": "BSD-3-Clause",
   "engines": {
     "node": ">=6"
-  },
-  "bugs": {
-    "url": "https://github.com/wmonk/create-react-app/issues"
   },
   "files": [
     "bin",
